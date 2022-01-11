@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B46A6B278C573A00D69032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A6A278C573A00D69032 /* AppDelegate.swift */; };
+		13B46A6D278C573A00D69032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A6C278C573A00D69032 /* SceneDelegate.swift */; };
+		13B46A72278C573A00D69032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B46A70278C573A00D69032 /* Main.storyboard */; };
+		13B46A74278C573B00D69032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B46A73278C573B00D69032 /* Assets.xcassets */; };
+		13B46A77278C573B00D69032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B46A75278C573B00D69032 /* LaunchScreen.storyboard */; };
+		13B46A84278C579000D69032 /* RegistroFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A7F278C579000D69032 /* RegistroFormViewController.swift */; };
+		13B46A85278C579000D69032 /* RegistroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A80278C579000D69032 /* RegistroTableViewCell.swift */; };
+		13B46A86278C579000D69032 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A81278C579000D69032 /* RegistroViewController.swift */; };
+		13B46A87278C579000D69032 /* RegistrosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A82278C579000D69032 /* RegistrosTableViewController.swift */; };
+		13B46A88278C579000D69032 /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A83278C579000D69032 /* UIViewController+Context.swift */; };
+		13B46A8D278C5AB300D69032 /* campanhabrinquedo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13B46A8B278C5AB300D69032 /* campanhabrinquedo.xcdatamodeld */; };
+		13E123A1278CA704007CB2DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13E123A0278CA704007CB2DD /* GoogleService-Info.plist */; };
+		13E123A5278CA8A1007CB2DD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 13E123A4278CA8A1007CB2DD /* FirebaseAuth */; };
+		13E123A7278CA8A1007CB2DD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 13E123A6278CA8A1007CB2DD /* FirebaseDatabase */; };
+		13E123A9278CA8A1007CB2DD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 13E123A8278CA8A1007CB2DD /* FirebaseFirestore */; };
+		13E123AC278CB4E7007CB2DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E123AB278CB4E7007CB2DD /* LoginViewController.swift */; };
+		13E123AF278CC9E6007CB2DD /* DoacaoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E123AE278CC9E6007CB2DD /* DoacaoItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B46A67278C573A00D69032 /* campanhabrinquedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = campanhabrinquedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B46A6A278C573A00D69032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13B46A6C278C573A00D69032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13B46A71278C573A00D69032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13B46A73278C573B00D69032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13B46A76278C573B00D69032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13B46A78278C573B00D69032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B46A7F278C579000D69032 /* RegistroFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroFormViewController.swift; sourceTree = "<group>"; };
+		13B46A80278C579000D69032 /* RegistroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroTableViewCell.swift; sourceTree = "<group>"; };
+		13B46A81278C579000D69032 /* RegistroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		13B46A82278C579000D69032 /* RegistrosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrosTableViewController.swift; sourceTree = "<group>"; };
+		13B46A83278C579000D69032 /* UIViewController+Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
+		13B46A8C278C5AB300D69032 /* campanhabrinquedo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = campanhabrinquedo.xcdatamodel; sourceTree = "<group>"; };
+		13E123A0278CA704007CB2DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13E123AB278CB4E7007CB2DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		13E123AE278CC9E6007CB2DD /* DoacaoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoacaoItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B46A64278C573A00D69032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E123A7278CA8A1007CB2DD /* FirebaseDatabase in Frameworks */,
+				13E123A5278CA8A1007CB2DD /* FirebaseAuth in Frameworks */,
+				13E123A9278CA8A1007CB2DD /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B46A5E278C573A00D69032 = {
+			isa = PBXGroup;
+			children = (
+				13B46A69278C573A00D69032 /* campanhabrinquedo */,
+				13B46A68278C573A00D69032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B46A68278C573A00D69032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B46A67278C573A00D69032 /* campanhabrinquedo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B46A69278C573A00D69032 /* campanhabrinquedo */ = {
+			isa = PBXGroup;
+			children = (
+				13E123A0278CA704007CB2DD /* GoogleService-Info.plist */,
+				13B46A8B278C5AB300D69032 /* campanhabrinquedo.xcdatamodeld */,
+				13B46A7F278C579000D69032 /* RegistroFormViewController.swift */,
+				13B46A82278C579000D69032 /* RegistrosTableViewController.swift */,
+				13B46A80278C579000D69032 /* RegistroTableViewCell.swift */,
+				13B46A81278C579000D69032 /* RegistroViewController.swift */,
+				13B46A83278C579000D69032 /* UIViewController+Context.swift */,
+				13B46A6A278C573A00D69032 /* AppDelegate.swift */,
+				13B46A6C278C573A00D69032 /* SceneDelegate.swift */,
+				13B46A70278C573A00D69032 /* Main.storyboard */,
+				13B46A73278C573B00D69032 /* Assets.xcassets */,
+				13B46A75278C573B00D69032 /* LaunchScreen.storyboard */,
+				13B46A78278C573B00D69032 /* Info.plist */,
+				13E123AB278CB4E7007CB2DD /* LoginViewController.swift */,
+				13E123AE278CC9E6007CB2DD /* DoacaoItem.swift */,
+			);
+			path = campanhabrinquedo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B46A66278C573A00D69032 /* campanhabrinquedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B46A7B278C573B00D69032 /* Build configuration list for PBXNativeTarget "campanhabrinquedo" */;
+			buildPhases = (
+				13B46A63278C573A00D69032 /* Sources */,
+				13B46A64278C573A00D69032 /* Frameworks */,
+				13B46A65278C573A00D69032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = campanhabrinquedo;
+			packageProductDependencies = (
+				13E123A4278CA8A1007CB2DD /* FirebaseAuth */,
+				13E123A6278CA8A1007CB2DD /* FirebaseDatabase */,
+				13E123A8278CA8A1007CB2DD /* FirebaseFirestore */,
+			);
+			productName = campanhabrinquedo;
+			productReference = 13B46A67278C573A00D69032 /* campanhabrinquedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B46A5F278C573A00D69032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					13B46A66278C573A00D69032 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 13B46A62278C573A00D69032 /* Build configuration list for PBXProject "campanhabrinquedo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B46A5E278C573A00D69032;
+			packageReferences = (
+				13E123A3278CA8A1007CB2DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 13B46A68278C573A00D69032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B46A66278C573A00D69032 /* campanhabrinquedo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B46A65278C573A00D69032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B46A77278C573B00D69032 /* LaunchScreen.storyboard in Resources */,
+				13E123A1278CA704007CB2DD /* GoogleService-Info.plist in Resources */,
+				13B46A74278C573B00D69032 /* Assets.xcassets in Resources */,
+				13B46A72278C573A00D69032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B46A63278C573A00D69032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E123AC278CB4E7007CB2DD /* LoginViewController.swift in Sources */,
+				13B46A86278C579000D69032 /* RegistroViewController.swift in Sources */,
+				13B46A8D278C5AB300D69032 /* campanhabrinquedo.xcdatamodeld in Sources */,
+				13B46A6B278C573A00D69032 /* AppDelegate.swift in Sources */,
+				13B46A87278C579000D69032 /* RegistrosTableViewController.swift in Sources */,
+				13B46A84278C579000D69032 /* RegistroFormViewController.swift in Sources */,
+				13B46A85278C579000D69032 /* RegistroTableViewCell.swift in Sources */,
+				13E123AF278CC9E6007CB2DD /* DoacaoItem.swift in Sources */,
+				13B46A88278C579000D69032 /* UIViewController+Context.swift in Sources */,
+				13B46A6D278C573A00D69032 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B46A70278C573A00D69032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B46A71278C573A00D69032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13B46A75278C573B00D69032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B46A76278C573B00D69032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B46A79278C573B00D69032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13B46A7A278C573B00D69032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B46A7C278C573B00D69032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = campanhabrinquedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.unyleya.campanhabrinquedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13B46A7D278C573B00D69032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = campanhabrinquedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.unyleya.campanhabrinquedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B46A62278C573A00D69032 /* Build configuration list for PBXProject "campanhabrinquedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B46A79278C573B00D69032 /* Debug */,
+				13B46A7A278C573B00D69032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B46A7B278C573B00D69032 /* Build configuration list for PBXNativeTarget "campanhabrinquedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B46A7C278C573B00D69032 /* Debug */,
+				13B46A7D278C573B00D69032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13E123A3278CA8A1007CB2DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13E123A4278CA8A1007CB2DD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13E123A3278CA8A1007CB2DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		13E123A6278CA8A1007CB2DD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13E123A3278CA8A1007CB2DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		13E123A8278CA8A1007CB2DD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13E123A3278CA8A1007CB2DD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		13B46A8B278C5AB300D69032 /* campanhabrinquedo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13B46A8C278C5AB300D69032 /* campanhabrinquedo.xcdatamodel */,
+			);
+			currentVersion = 13B46A8C278C5AB300D69032 /* campanhabrinquedo.xcdatamodel */;
+			path = campanhabrinquedo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13B46A5F278C573A00D69032 /* Project object */;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H1615" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Doacao" representedClassName="Doacao" syncable="YES" codeGenerationType="class">
+        <attribute name="brinquedo" optional="YES" attributeType="String"/>
+        <attribute name="conservacao" optional="YES" attributeType="String"/>
+        <attribute name="doador" optional="YES" attributeType="String"/>
+        <attribute name="endereco" optional="YES" attributeType="String"/>
+        <attribute name="telefone" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Doacao" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>
